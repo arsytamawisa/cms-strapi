@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meta_data",
+  "info": {
+    "singularName": "meta-data-singular",
+    "pluralName": "meta-data",
+    "displayName": "MetaData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "tableDocumentDetail": {
+      "type": "json"
+    },
+    "tableNodeUrl": {
+      "type": "json"
+    },
+    "method": {
+      "type": "string"
+    },
+    "endpoint": {
+      "type": "string"
+    },
+    "usage": {
+      "type": "string"
+    },
+    "policyApi": {
+      "type": "string"
+    }
+  }
+}
